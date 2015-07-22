@@ -1,0 +1,28 @@
+<body class="gray-bg">
+
+	<div class="middle-box text-center loginscreen  animated fadeInDown" ng-controller="DashboardCtrl">
+		<div>
+			<div>
+
+				<h1 class="logo-name">DE+</h1>
+
+			</div>
+			<h3>Welcome to DataEnvision</h3>
+			<!-- <p>Perfectly designed and precisely prepared admin theme with over 50 pages with extra new web app views. -->
+			</p>
+			<p>Login in. To see it in action.</p>
+			<form class="m-t" role="form" name="loginfrm">
+				<div class="form-group">
+					<input type="email" class="form-control" id="email" ng-model="email" placeholder="Email-Id" required="">
+				</div>
+				<div class="form-group">
+					<input type="password" class="form-control" id="password" ng-model="password" placeholder="Password" required="">
+				</div>
+				<button class="btn btn-primary block full-width m-b" ng-click="login()">Login</button>
+
+				<a href="#"><small>Forgot password?</small></a>
+				<p class="text-muted text-center"><small>Do not have an account?</small></p>
+				<a ui-sref="register" class="btn btn-sm btn-white btn-block">Create an account</a>
+			</form>
+		</div>
+	</div>

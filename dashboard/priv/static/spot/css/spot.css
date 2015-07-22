@@ -1,0 +1,46 @@
+body {
+  padding-top: 50px;
+}
+ 
+.thumbnail {
+    position:relative;
+    overflow:hidden;
+}
+ 
+.caption {
+    position:absolute;
+    top:0;
+    right:0;
+    background:rgba(66, 139, 202, 0.75);
+    width:100%;
+    height:100%;
+    padding:2%;
+    display: none;
+    text-align:center;
+    color:#fff !important;
+    z-index:2;
+}
+.circleleft {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background-color: #601785;
+    position: absolute;
+    left: 100px;
+    clip: rect(0px,100px,200px,0px);
+}
+.rect {
+    width: 200px;
+    height: 200px;
+    background-color: #eaeaea;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background-color: #601785;
+    position: relative;
+    left: 100px;
+}
