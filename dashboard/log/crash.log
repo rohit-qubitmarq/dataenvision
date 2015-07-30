@@ -56,3 +56,6 @@ Error in process <0.283.0> on node 'dashboard@rohit-VirtualBox' with exit value:
      Reason:     shutdown
      Offender:   [{nb_children,1},{name,boss_session_controller},{mfargs,{boss_session_controller,start_link,[[{name,{local,boss_session_pool}},{worker_module,boss_session_controller},{size,20},{max_overflow,40},{adapter,boss_session_adapter_mock},{session_exp_time,525600},{session_key,"_boss_session"}]]}},{restart_type,temporary},{shutdown,5000},{child_type,worker}]
 
+2015-07-23 11:54:54 =ERROR REPORT====
+POST /upload [dashboard] 404 0ms2015-07-23 11:56:07 =ERROR REPORT====
+GET /Landing_page/index.html [dashboard] 404 0ms

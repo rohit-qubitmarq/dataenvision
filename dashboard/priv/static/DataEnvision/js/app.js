@@ -1,12 +1,12 @@
-/**
- * INSPINIA - Responsive Admin Theme
- * Copyright 2015 Webapplayers.com
- *
- */
-(function () {
-    angular.module('dashboard', [
-        'ui.router',                    // Routing
-    ])
-})();
+'use strict';
 
-// Other libraries are loaded dynamically in the config.js file using the library ocLazyLoad
+(function () {
+	angular.module('dashboard', [
+		'ui.router',					// Routing
+		'dashboard.services',			// AuthFactory service
+		'oc.lazyLoad',					// ocLazyLoad
+		'ui.bootstrap',					// Ui Bootstrap
+		'pascalprecht.translate',		// Angular Translate
+		'ngIdle'						// Idle timer
+		])
+})();

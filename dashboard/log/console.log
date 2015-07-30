@@ -879,3 +879,384 @@
 2015-07-22 13:04:21.933 [notice] <0.608.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
 2015-07-22 13:17:13.964 [notice] <0.620.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
 2015-07-22 13:17:26.755 [notice] <0.623.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-23 11:25:33.346 [info] <0.7.0> Application lager started on node 'dashboard@rohit-VirtualBox'
+2015-07-23 11:25:33.346 [notice] <0.63.0>@lager_app:132 Deprecated lager_file_backend config detected, please consider updating it
+2015-07-23 11:25:33.400 [info] <0.7.0> Application crypto started on node 'dashboard@rohit-VirtualBox'
+2015-07-23 11:25:33.444 [info] <0.7.0> Application mimetypes started on node 'dashboard@rohit-VirtualBox'
+2015-07-23 11:25:33.537 [info] <0.99.0> Starting Boss in development mode....
+
+2015-07-23 11:25:33.561 [info] <0.99.0>@boss_db:start:72 Start Database Adapter boss_db_adapter_mongodb options [{adapter,mongodb},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_host,"localhost"},{db_port,27017}]
+2015-07-23 11:25:33.584 [info] <0.7.0> Application mongodb started on node 'dashboard@rohit-VirtualBox'
+2015-07-23 11:25:33.696 [info] <0.99.0> Starting master services on 'dashboard@rohit-VirtualBox'
+
+2015-07-23 11:25:33.740 [info] <0.7.0> Application tinymq started on node 'dashboard@rohit-VirtualBox'
+2015-07-23 11:25:33.812 [info] <0.99.0> SSL:[]
+
+2015-07-23 11:25:33.820 [info] <0.99.0> Starting cowboy... on 'dashboard@rohit-VirtualBox'
+
+2015-07-23 11:25:33.829 [info] <0.7.0> Application cowlib started on node 'dashboard@rohit-VirtualBox'
+2015-07-23 11:25:33.839 [info] <0.7.0> Application ranch started on node 'dashboard@rohit-VirtualBox'
+2015-07-23 11:25:33.880 [info] <0.7.0> Application cowboy started on node 'dashboard@rohit-VirtualBox'
+2015-07-23 11:25:33.880 [info] <0.99.0> Starting http listener... on 0.0.0.0:8001 
+
+2015-07-23 11:25:34.019 [warning] <0.6.0> lager_error_logger_h dropped 34 messages in the last second that exceeded the limit of 50 messages/sec
+2015-07-23 11:25:34.019 [info] <0.274.0> Loading routes from "/home/rohit/GovStrive/dashboard/priv/dashboard.routes" ....
+2015-07-23 11:25:34.049 [info] <0.99.0>@boss_load:load_all_modules:57 Loading application dashboard
+2015-07-23 11:25:34.110 [info] <0.99.0>@boss_controller_compiler:compile:59 Compile controller /home/rohit/GovStrive/dashboard/src/controller/dashboard_login_controller.erl
+2015-07-23 11:25:34.119 [notice] <0.99.0>@boss_compiler:compile:47 Compile file "/home/rohit/GovStrive/dashboard/src/controller/dashboard_login_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/home/rohit/GovStrive/dashboard/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2015-07-23 11:25:34.200 [info] <0.99.0>@boss_controller_compiler:compile:59 Compile controller /home/rohit/GovStrive/dashboard/src/controller/dashboard_register_controller.erl
+2015-07-23 11:25:34.201 [notice] <0.99.0>@boss_compiler:compile:47 Compile file "/home/rohit/GovStrive/dashboard/src/controller/dashboard_register_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/home/rohit/GovStrive/dashboard/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2015-07-23 11:25:34.255 [info] <0.99.0>@boss_controller_compiler:compile:59 Compile controller /home/rohit/GovStrive/dashboard/src/controller/dashboard_dataenvision_controller.erl
+2015-07-23 11:25:34.255 [notice] <0.99.0>@boss_compiler:compile:47 Compile file "/home/rohit/GovStrive/dashboard/src/controller/dashboard_dataenvision_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/home/rohit/GovStrive/dashboard/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2015-07-23 11:25:34.296 [info] <0.99.0>@boss_load:compile_view_dir_erlydtl:311 Compile Modules "src/view/lib/tag_html"  dashboard_view_lib_tags
+2015-07-23 11:25:34.408 [notice] <0.99.0>@boss_compiler:compile:47 Compile file "/home/rohit/GovStrive/dashboard/priv/init/dashboard_01_news.erl" with options [{include_dirs,["/home/rohit/GovStrive/dashboard/include"]}] 
+2015-07-23 11:25:34.411 [notice] <0.99.0>@boss_compiler:compile:47 Compile file "/home/rohit/GovStrive/dashboard/priv/init/dashboard_10_bcrypt.erl" with options [{include_dirs,["/home/rohit/GovStrive/dashboard/include"]}] 
+2015-07-23 11:25:34.479 [info] <0.7.0> Application bcrypt started on node 'dashboard@rohit-VirtualBox'
+2015-07-23 11:25:38.804 [notice] <0.293.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-23 11:28:55.952 [notice] <0.301.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-23 11:29:28.056 [notice] <0.309.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-23 11:46:33.103 [notice] <0.328.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-23 11:48:22.627 [notice] <0.334.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-23 11:53:23.310 [notice] <0.340.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-23 11:53:25.535 [notice] <0.342.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-23 11:54:54.631 [notice] <0.351.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-23 11:54:54.638 [info] <0.274.0> Loading routes from "/home/rohit/GovStrive/dashboard/priv/dashboard.routes" ....
+2015-07-23 11:54:54.698 [error] <0.351.0> POST /upload [dashboard] 404 0ms
+2015-07-23 11:56:07.657 [notice] <0.359.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-23 11:56:07.658 [info] <0.274.0> Loading routes from "/home/rohit/GovStrive/dashboard/priv/dashboard.routes" ....
+2015-07-23 11:56:07.659 [error] <0.359.0> GET /Landing_page/index.html [dashboard] 404 0ms
+2015-07-23 11:56:37.424 [notice] <0.367.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-23 11:57:11.779 [notice] <0.375.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-23 11:57:12.946 [notice] <0.376.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-23 11:57:21.994 [notice] <0.381.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-23 11:58:09.944 [notice] <0.382.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-23 11:58:14.810 [notice] <0.387.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-23 11:58:50.480 [notice] <0.404.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-23 12:15:16.441 [notice] <0.417.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-23 12:16:17.393 [notice] <0.427.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-23 12:25:24.711 [notice] <0.63.0>@lager_app:132 Deprecated lager_file_backend config detected, please consider updating it
+2015-07-23 12:25:24.863 [info] <0.7.0> Application lager started on node 'dashboard@rohit-VirtualBox'
+2015-07-23 12:25:24.927 [info] <0.7.0> Application crypto started on node 'dashboard@rohit-VirtualBox'
+2015-07-23 12:25:24.962 [info] <0.7.0> Application mimetypes started on node 'dashboard@rohit-VirtualBox'
+2015-07-23 12:25:25.069 [info] <0.99.0> Starting Boss in development mode....
+
+2015-07-23 12:25:25.097 [info] <0.99.0>@boss_db:start:72 Start Database Adapter boss_db_adapter_mongodb options [{adapter,mongodb},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_host,"localhost"},{db_port,27017}]
+2015-07-23 12:25:25.119 [info] <0.7.0> Application mongodb started on node 'dashboard@rohit-VirtualBox'
+2015-07-23 12:25:25.259 [info] <0.99.0> Starting master services on 'dashboard@rohit-VirtualBox'
+
+2015-07-23 12:25:25.309 [info] <0.7.0> Application tinymq started on node 'dashboard@rohit-VirtualBox'
+2015-07-23 12:25:25.396 [info] <0.99.0> SSL:[]
+
+2015-07-23 12:25:25.405 [info] <0.99.0> Starting cowboy... on 'dashboard@rohit-VirtualBox'
+
+2015-07-23 12:25:25.413 [info] <0.7.0> Application cowlib started on node 'dashboard@rohit-VirtualBox'
+2015-07-23 12:25:25.436 [info] <0.7.0> Application ranch started on node 'dashboard@rohit-VirtualBox'
+2015-07-23 12:25:25.492 [info] <0.7.0> Application cowboy started on node 'dashboard@rohit-VirtualBox'
+2015-07-23 12:25:25.492 [info] <0.99.0> Starting http listener... on 0.0.0.0:8001 
+
+2015-07-23 12:25:25.692 [info] <0.99.0>@boss_load:load_all_modules:57 Loading application dashboard
+2015-07-23 12:25:25.759 [info] <0.99.0>@boss_controller_compiler:compile:59 Compile controller /home/rohit/GovStrive/dashboard/src/controller/dashboard_login_controller.erl
+2015-07-23 12:25:25.771 [notice] <0.99.0>@boss_compiler:compile:47 Compile file "/home/rohit/GovStrive/dashboard/src/controller/dashboard_login_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/home/rohit/GovStrive/dashboard/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2015-07-23 12:25:25.870 [info] <0.99.0>@boss_controller_compiler:compile:59 Compile controller /home/rohit/GovStrive/dashboard/src/controller/dashboard_register_controller.erl
+2015-07-23 12:25:25.870 [notice] <0.99.0>@boss_compiler:compile:47 Compile file "/home/rohit/GovStrive/dashboard/src/controller/dashboard_register_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/home/rohit/GovStrive/dashboard/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2015-07-23 12:25:25.905 [info] <0.99.0>@boss_controller_compiler:compile:59 Compile controller /home/rohit/GovStrive/dashboard/src/controller/dashboard_dataenvision_controller.erl
+2015-07-23 12:25:25.905 [notice] <0.99.0>@boss_compiler:compile:47 Compile file "/home/rohit/GovStrive/dashboard/src/controller/dashboard_dataenvision_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/home/rohit/GovStrive/dashboard/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2015-07-23 12:25:25.942 [info] <0.99.0>@boss_load:compile_view_dir_erlydtl:311 Compile Modules "src/view/lib/tag_html"  dashboard_view_lib_tags
+2015-07-23 12:25:26.082 [notice] <0.99.0>@boss_compiler:compile:47 Compile file "/home/rohit/GovStrive/dashboard/priv/init/dashboard_01_news.erl" with options [{include_dirs,["/home/rohit/GovStrive/dashboard/include"]}] 
+2015-07-23 12:25:26.086 [notice] <0.99.0>@boss_compiler:compile:47 Compile file "/home/rohit/GovStrive/dashboard/priv/init/dashboard_10_bcrypt.erl" with options [{include_dirs,["/home/rohit/GovStrive/dashboard/include"]}] 
+2015-07-23 12:25:26.162 [warning] <0.6.0> lager_error_logger_h dropped 34 messages in the last second that exceeded the limit of 50 messages/sec
+2015-07-23 12:25:26.162 [info] <0.7.0> Application bcrypt started on node 'dashboard@rohit-VirtualBox'
+2015-07-23 12:27:05.204 [notice] <0.293.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-23 12:40:56.325 [notice] <0.322.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-23 12:40:56.326 [notice] <0.328.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-23 12:43:13.370 [notice] <0.342.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-23 12:47:32.969 [notice] <0.347.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-23 12:49:43.559 [notice] <0.354.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-23 14:04:24.252 [notice] <0.377.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-23 14:08:18.732 [notice] <0.389.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-23 14:46:24.842 [notice] <0.398.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-23 14:50:48.685 [notice] <0.412.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-23 15:16:09.748 [notice] <0.417.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-23 15:19:43.315 [notice] <0.424.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-23 15:19:51.707 [notice] <0.426.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-23 15:20:21.681 [notice] <0.432.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-23 15:20:34.337 [notice] <0.438.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-23 16:43:53.120 [notice] <0.502.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-23 17:28:18.921 [notice] <0.509.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-23 17:36:17.884 [notice] <0.540.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-23 17:37:14.487 [notice] <0.550.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-23 18:14:47.603 [notice] <0.556.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-23 18:16:03.381 [notice] <0.563.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-23 18:21:38.162 [notice] <0.585.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-23 18:25:46.081 [notice] <0.593.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-23 18:25:53.875 [notice] <0.594.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-23 18:28:27.136 [notice] <0.603.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-23 18:48:00.333 [notice] <0.612.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-23 18:48:18.524 [notice] <0.624.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-23 18:52:15.163 [notice] <0.628.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-27 10:59:03.938 [notice] <0.63.0>@lager_app:132 Deprecated lager_file_backend config detected, please consider updating it
+2015-07-27 10:59:04.364 [info] <0.7.0> Application lager started on node 'dashboard@rohit-VirtualBox'
+2015-07-27 10:59:04.426 [info] <0.7.0> Application crypto started on node 'dashboard@rohit-VirtualBox'
+2015-07-27 10:59:04.497 [info] <0.7.0> Application mimetypes started on node 'dashboard@rohit-VirtualBox'
+2015-07-27 10:59:04.715 [info] <0.99.0> Starting Boss in development mode....
+
+2015-07-27 10:59:04.775 [info] <0.99.0>@boss_db:start:72 Start Database Adapter boss_db_adapter_mongodb options [{adapter,mongodb},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_host,"localhost"},{db_port,27017}]
+2015-07-27 10:59:04.802 [info] <0.7.0> Application mongodb started on node 'dashboard@rohit-VirtualBox'
+2015-07-27 10:59:05.110 [info] <0.99.0> Starting master services on 'dashboard@rohit-VirtualBox'
+
+2015-07-27 10:59:05.280 [info] <0.7.0> Application tinymq started on node 'dashboard@rohit-VirtualBox'
+2015-07-27 10:59:05.343 [info] <0.99.0> SSL:[]
+
+2015-07-27 10:59:05.382 [info] <0.99.0> Starting cowboy... on 'dashboard@rohit-VirtualBox'
+
+2015-07-27 10:59:05.403 [info] <0.7.0> Application cowlib started on node 'dashboard@rohit-VirtualBox'
+2015-07-27 10:59:05.426 [info] <0.7.0> Application ranch started on node 'dashboard@rohit-VirtualBox'
+2015-07-27 10:59:05.504 [info] <0.7.0> Application cowboy started on node 'dashboard@rohit-VirtualBox'
+2015-07-27 10:59:05.504 [info] <0.99.0> Starting http listener... on 0.0.0.0:8001 
+
+2015-07-27 10:59:05.789 [info] <0.99.0>@boss_load:load_all_modules:57 Loading application dashboard
+2015-07-27 10:59:05.891 [info] <0.99.0>@boss_controller_compiler:compile:59 Compile controller /home/rohit/GovStrive/dashboard/src/controller/dashboard_login_controller.erl
+2015-07-27 10:59:05.914 [notice] <0.99.0>@boss_compiler:compile:47 Compile file "/home/rohit/GovStrive/dashboard/src/controller/dashboard_login_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/home/rohit/GovStrive/dashboard/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2015-07-27 10:59:06.069 [info] <0.99.0>@boss_controller_compiler:compile:59 Compile controller /home/rohit/GovStrive/dashboard/src/controller/dashboard_register_controller.erl
+2015-07-27 10:59:06.069 [notice] <0.99.0>@boss_compiler:compile:47 Compile file "/home/rohit/GovStrive/dashboard/src/controller/dashboard_register_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/home/rohit/GovStrive/dashboard/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2015-07-27 10:59:06.124 [info] <0.99.0>@boss_controller_compiler:compile:59 Compile controller /home/rohit/GovStrive/dashboard/src/controller/dashboard_dataenvision_controller.erl
+2015-07-27 10:59:06.124 [notice] <0.99.0>@boss_compiler:compile:47 Compile file "/home/rohit/GovStrive/dashboard/src/controller/dashboard_dataenvision_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/home/rohit/GovStrive/dashboard/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2015-07-27 10:59:06.168 [info] <0.99.0>@boss_load:compile_view_dir_erlydtl:311 Compile Modules "src/view/lib/tag_html"  dashboard_view_lib_tags
+2015-07-27 10:59:06.300 [notice] <0.99.0>@boss_compiler:compile:47 Compile file "/home/rohit/GovStrive/dashboard/priv/init/dashboard_01_news.erl" with options [{include_dirs,["/home/rohit/GovStrive/dashboard/include"]}] 
+2015-07-27 10:59:06.302 [notice] <0.99.0>@boss_compiler:compile:47 Compile file "/home/rohit/GovStrive/dashboard/priv/init/dashboard_10_bcrypt.erl" with options [{include_dirs,["/home/rohit/GovStrive/dashboard/include"]}] 
+2015-07-27 10:59:06.377 [warning] <0.6.0> lager_error_logger_h dropped 31 messages in the last second that exceeded the limit of 50 messages/sec
+2015-07-27 10:59:06.377 [info] <0.7.0> Application bcrypt started on node 'dashboard@rohit-VirtualBox'
+2015-07-27 11:43:05.739 [notice] <0.290.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-27 12:31:05.182 [notice] <0.300.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-27 12:31:35.887 [notice] <0.308.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-27 12:49:08.441 [notice] <0.311.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-27 12:49:16.279 [notice] <0.319.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-27 12:56:13.170 [notice] <0.327.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-27 12:56:21.592 [notice] <0.334.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-27 12:56:48.447 [notice] <0.336.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-27 12:56:48.479 [notice] <0.340.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-27 12:56:48.486 [notice] <0.339.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-27 12:56:48.517 [notice] <0.341.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-27 12:56:48.786 [notice] <0.338.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-27 12:56:48.787 [notice] <0.337.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-27 12:56:48.789 [notice] <0.342.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-27 12:56:48.789 [notice] <0.343.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-27 12:56:48.789 [notice] <0.344.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-27 12:56:48.789 [notice] <0.345.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-27 12:56:50.215 [notice] <0.349.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-27 12:58:33.303 [notice] <0.363.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-27 18:07:31.775 [notice] <0.385.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-27 18:07:42.763 [notice] <0.391.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-28 11:09:40.963 [notice] <0.63.0>@lager_app:132 Deprecated lager_file_backend config detected, please consider updating it
+2015-07-28 11:09:41.210 [info] <0.7.0> Application lager started on node 'dashboard@rohit-VirtualBox'
+2015-07-28 11:09:41.286 [info] <0.7.0> Application crypto started on node 'dashboard@rohit-VirtualBox'
+2015-07-28 11:09:41.330 [info] <0.7.0> Application mimetypes started on node 'dashboard@rohit-VirtualBox'
+2015-07-28 11:09:41.452 [info] <0.99.0> Starting Boss in development mode....
+
+2015-07-28 11:09:41.489 [info] <0.99.0>@boss_db:start:72 Start Database Adapter boss_db_adapter_mongodb options [{adapter,mongodb},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_host,"localhost"},{db_port,27017}]
+2015-07-28 11:09:41.516 [info] <0.7.0> Application mongodb started on node 'dashboard@rohit-VirtualBox'
+2015-07-28 11:09:41.674 [info] <0.99.0> Starting master services on 'dashboard@rohit-VirtualBox'
+
+2015-07-28 11:09:41.726 [info] <0.7.0> Application tinymq started on node 'dashboard@rohit-VirtualBox'
+2015-07-28 11:09:41.808 [info] <0.99.0> SSL:[]
+
+2015-07-28 11:09:41.817 [info] <0.99.0> Starting cowboy... on 'dashboard@rohit-VirtualBox'
+
+2015-07-28 11:09:41.828 [info] <0.7.0> Application cowlib started on node 'dashboard@rohit-VirtualBox'
+2015-07-28 11:09:41.841 [info] <0.7.0> Application ranch started on node 'dashboard@rohit-VirtualBox'
+2015-07-28 11:09:41.876 [info] <0.7.0> Application cowboy started on node 'dashboard@rohit-VirtualBox'
+2015-07-28 11:09:41.877 [info] <0.99.0> Starting http listener... on 0.0.0.0:8001 
+
+2015-07-28 11:09:42.051 [warning] <0.6.0> lager_error_logger_h dropped 34 messages in the last second that exceeded the limit of 50 messages/sec
+2015-07-28 11:09:42.051 [info] <0.274.0> Loading routes from "/home/rohit/GovStrive/dashboard/priv/dashboard.routes" ....
+2015-07-28 11:09:42.088 [info] <0.99.0>@boss_load:load_all_modules:57 Loading application dashboard
+2015-07-28 11:09:42.161 [info] <0.99.0>@boss_controller_compiler:compile:59 Compile controller /home/rohit/GovStrive/dashboard/src/controller/dashboard_login_controller.erl
+2015-07-28 11:09:42.175 [notice] <0.99.0>@boss_compiler:compile:47 Compile file "/home/rohit/GovStrive/dashboard/src/controller/dashboard_login_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/home/rohit/GovStrive/dashboard/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2015-07-28 11:09:42.287 [info] <0.99.0>@boss_controller_compiler:compile:59 Compile controller /home/rohit/GovStrive/dashboard/src/controller/dashboard_register_controller.erl
+2015-07-28 11:09:42.287 [notice] <0.99.0>@boss_compiler:compile:47 Compile file "/home/rohit/GovStrive/dashboard/src/controller/dashboard_register_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/home/rohit/GovStrive/dashboard/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2015-07-28 11:09:42.332 [info] <0.99.0>@boss_controller_compiler:compile:59 Compile controller /home/rohit/GovStrive/dashboard/src/controller/dashboard_dataenvision_controller.erl
+2015-07-28 11:09:42.332 [notice] <0.99.0>@boss_compiler:compile:47 Compile file "/home/rohit/GovStrive/dashboard/src/controller/dashboard_dataenvision_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/home/rohit/GovStrive/dashboard/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2015-07-28 11:09:42.374 [info] <0.99.0>@boss_load:compile_view_dir_erlydtl:311 Compile Modules "src/view/lib/tag_html"  dashboard_view_lib_tags
+2015-07-28 11:09:42.525 [notice] <0.99.0>@boss_compiler:compile:47 Compile file "/home/rohit/GovStrive/dashboard/priv/init/dashboard_01_news.erl" with options [{include_dirs,["/home/rohit/GovStrive/dashboard/include"]}] 
+2015-07-28 11:09:42.535 [notice] <0.99.0>@boss_compiler:compile:47 Compile file "/home/rohit/GovStrive/dashboard/priv/init/dashboard_10_bcrypt.erl" with options [{include_dirs,["/home/rohit/GovStrive/dashboard/include"]}] 
+2015-07-28 11:09:42.628 [info] <0.7.0> Application bcrypt started on node 'dashboard@rohit-VirtualBox'
+2015-07-28 13:14:20.777 [notice] <0.301.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-28 13:17:16.035 [notice] <0.309.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-28 13:18:43.959 [notice] <0.316.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-28 13:22:40.162 [notice] <0.332.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-28 13:26:03.064 [notice] <0.349.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-28 14:33:46.530 [notice] <0.356.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-28 15:40:42.508 [notice] <0.366.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-28 16:41:05.613 [notice] <0.371.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-29 11:14:21.253 [notice] <0.63.0>@lager_app:132 Deprecated lager_file_backend config detected, please consider updating it
+2015-07-29 11:14:21.726 [info] <0.7.0> Application lager started on node 'dashboard@rohit-VirtualBox'
+2015-07-29 11:14:21.841 [info] <0.7.0> Application crypto started on node 'dashboard@rohit-VirtualBox'
+2015-07-29 11:14:21.886 [info] <0.7.0> Application mimetypes started on node 'dashboard@rohit-VirtualBox'
+2015-07-29 11:14:22.022 [info] <0.99.0> Starting Boss in development mode....
+
+2015-07-29 11:14:22.090 [info] <0.99.0>@boss_db:start:72 Start Database Adapter boss_db_adapter_mongodb options [{adapter,mongodb},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_host,"localhost"},{db_port,27017}]
+2015-07-29 11:14:22.121 [info] <0.7.0> Application mongodb started on node 'dashboard@rohit-VirtualBox'
+2015-07-29 11:14:22.538 [info] <0.99.0> Starting master services on 'dashboard@rohit-VirtualBox'
+
+2015-07-29 11:14:22.631 [info] <0.7.0> Application tinymq started on node 'dashboard@rohit-VirtualBox'
+2015-07-29 11:14:22.742 [info] <0.99.0> SSL:[]
+
+2015-07-29 11:14:22.755 [info] <0.99.0> Starting cowboy... on 'dashboard@rohit-VirtualBox'
+
+2015-07-29 11:14:22.794 [info] <0.7.0> Application cowlib started on node 'dashboard@rohit-VirtualBox'
+2015-07-29 11:14:22.840 [info] <0.7.0> Application ranch started on node 'dashboard@rohit-VirtualBox'
+2015-07-29 11:14:22.904 [info] <0.7.0> Application cowboy started on node 'dashboard@rohit-VirtualBox'
+2015-07-29 11:14:22.904 [info] <0.99.0> Starting http listener... on 0.0.0.0:8001 
+
+2015-07-29 11:14:23.041 [warning] <0.6.0> lager_error_logger_h dropped 34 messages in the last second that exceeded the limit of 50 messages/sec
+2015-07-29 11:14:23.041 [info] <0.7.0> Application boss started on node 'dashboard@rohit-VirtualBox'
+2015-07-29 11:14:23.041 [info] <0.7.0> Application dashboard started on node 'dashboard@rohit-VirtualBox'
+2015-07-29 11:14:23.151 [info] <0.274.0> Loading routes from "/home/rohit/GovStrive/dashboard/priv/dashboard.routes" ....
+2015-07-29 11:14:23.265 [info] <0.99.0>@boss_load:load_all_modules:57 Loading application dashboard
+2015-07-29 11:14:23.413 [info] <0.99.0>@boss_controller_compiler:compile:59 Compile controller /home/rohit/GovStrive/dashboard/src/controller/dashboard_login_controller.erl
+2015-07-29 11:14:23.419 [notice] <0.99.0>@boss_compiler:compile:47 Compile file "/home/rohit/GovStrive/dashboard/src/controller/dashboard_login_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/home/rohit/GovStrive/dashboard/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2015-07-29 11:14:23.528 [info] <0.99.0>@boss_controller_compiler:compile:59 Compile controller /home/rohit/GovStrive/dashboard/src/controller/dashboard_register_controller.erl
+2015-07-29 11:14:23.532 [notice] <0.99.0>@boss_compiler:compile:47 Compile file "/home/rohit/GovStrive/dashboard/src/controller/dashboard_register_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/home/rohit/GovStrive/dashboard/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2015-07-29 11:14:23.570 [info] <0.99.0>@boss_controller_compiler:compile:59 Compile controller /home/rohit/GovStrive/dashboard/src/controller/dashboard_dataenvision_controller.erl
+2015-07-29 11:14:23.575 [notice] <0.99.0>@boss_compiler:compile:47 Compile file "/home/rohit/GovStrive/dashboard/src/controller/dashboard_dataenvision_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/home/rohit/GovStrive/dashboard/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2015-07-29 11:14:23.664 [info] <0.99.0>@boss_load:compile_view_dir_erlydtl:311 Compile Modules "src/view/lib/tag_html"  dashboard_view_lib_tags
+2015-07-29 11:14:23.872 [notice] <0.99.0>@boss_compiler:compile:47 Compile file "/home/rohit/GovStrive/dashboard/priv/init/dashboard_01_news.erl" with options [{include_dirs,["/home/rohit/GovStrive/dashboard/include"]}] 
+2015-07-29 11:14:23.879 [notice] <0.99.0>@boss_compiler:compile:47 Compile file "/home/rohit/GovStrive/dashboard/priv/init/dashboard_10_bcrypt.erl" with options [{include_dirs,["/home/rohit/GovStrive/dashboard/include"]}] 
+2015-07-29 11:14:24.006 [info] <0.7.0> Application bcrypt started on node 'dashboard@rohit-VirtualBox'
+2015-07-30 10:49:38.266 [notice] <0.63.0>@lager_app:132 Deprecated lager_file_backend config detected, please consider updating it
+2015-07-30 10:49:38.743 [info] <0.7.0> Application lager started on node 'dashboard@rohit-VirtualBox'
+2015-07-30 10:49:38.887 [info] <0.7.0> Application crypto started on node 'dashboard@rohit-VirtualBox'
+2015-07-30 10:49:38.985 [info] <0.7.0> Application mimetypes started on node 'dashboard@rohit-VirtualBox'
+2015-07-30 10:49:39.227 [info] <0.99.0> Starting Boss in development mode....
+
+2015-07-30 10:49:39.279 [info] <0.99.0>@boss_db:start:72 Start Database Adapter boss_db_adapter_mongodb options [{adapter,mongodb},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_host,"localhost"},{db_port,27017}]
+2015-07-30 10:49:39.311 [info] <0.7.0> Application mongodb started on node 'dashboard@rohit-VirtualBox'
+2015-07-30 10:49:39.613 [info] <0.99.0> Starting master services on 'dashboard@rohit-VirtualBox'
+
+2015-07-30 10:49:39.728 [info] <0.7.0> Application tinymq started on node 'dashboard@rohit-VirtualBox'
+2015-07-30 10:49:39.915 [info] <0.99.0> SSL:[]
+
+2015-07-30 10:49:39.949 [info] <0.99.0> Starting cowboy... on 'dashboard@rohit-VirtualBox'
+
+2015-07-30 10:49:39.974 [info] <0.7.0> Application cowlib started on node 'dashboard@rohit-VirtualBox'
+2015-07-30 10:49:39.996 [info] <0.7.0> Application ranch started on node 'dashboard@rohit-VirtualBox'
+2015-07-30 10:49:40.074 [info] <0.7.0> Application cowboy started on node 'dashboard@rohit-VirtualBox'
+2015-07-30 10:49:40.074 [info] <0.99.0> Starting http listener... on 0.0.0.0:8001 
+
+2015-07-30 10:49:40.418 [info] <0.99.0>@boss_load:load_all_modules:57 Loading application dashboard
+2015-07-30 10:49:40.503 [info] <0.99.0>@boss_controller_compiler:compile:59 Compile controller /home/rohit/GovStrive/dashboard/src/controller/dashboard_login_controller.erl
+2015-07-30 10:49:40.515 [notice] <0.99.0>@boss_compiler:compile:47 Compile file "/home/rohit/GovStrive/dashboard/src/controller/dashboard_login_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/home/rohit/GovStrive/dashboard/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2015-07-30 10:49:40.700 [info] <0.99.0>@boss_controller_compiler:compile:59 Compile controller /home/rohit/GovStrive/dashboard/src/controller/dashboard_register_controller.erl
+2015-07-30 10:49:40.701 [notice] <0.99.0>@boss_compiler:compile:47 Compile file "/home/rohit/GovStrive/dashboard/src/controller/dashboard_register_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/home/rohit/GovStrive/dashboard/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2015-07-30 10:49:40.772 [info] <0.99.0>@boss_controller_compiler:compile:59 Compile controller /home/rohit/GovStrive/dashboard/src/controller/dashboard_dataenvision_controller.erl
+2015-07-30 10:49:40.773 [notice] <0.99.0>@boss_compiler:compile:47 Compile file "/home/rohit/GovStrive/dashboard/src/controller/dashboard_dataenvision_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/home/rohit/GovStrive/dashboard/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2015-07-30 10:49:40.846 [info] <0.99.0>@boss_load:compile_view_dir_erlydtl:311 Compile Modules "src/view/lib/tag_html"  dashboard_view_lib_tags
+2015-07-30 10:49:41.077 [notice] <0.99.0>@boss_compiler:compile:47 Compile file "/home/rohit/GovStrive/dashboard/priv/init/dashboard_01_news.erl" with options [{include_dirs,["/home/rohit/GovStrive/dashboard/include"]}] 
+2015-07-30 10:49:41.083 [notice] <0.99.0>@boss_compiler:compile:47 Compile file "/home/rohit/GovStrive/dashboard/priv/init/dashboard_10_bcrypt.erl" with options [{include_dirs,["/home/rohit/GovStrive/dashboard/include"]}] 
+2015-07-30 10:49:41.175 [warning] <0.6.0> lager_error_logger_h dropped 36 messages in the last second that exceeded the limit of 50 messages/sec
+2015-07-30 10:49:41.175 [info] <0.7.0> Application bcrypt started on node 'dashboard@rohit-VirtualBox'
+2015-07-30 12:18:59.887 [notice] <0.63.0>@lager_app:132 Deprecated lager_file_backend config detected, please consider updating it
+2015-07-30 12:19:00.058 [info] <0.7.0> Application lager started on node 'dashboard@rohit-VirtualBox'
+2015-07-30 12:19:00.114 [info] <0.7.0> Application crypto started on node 'dashboard@rohit-VirtualBox'
+2015-07-30 12:19:00.153 [info] <0.7.0> Application mimetypes started on node 'dashboard@rohit-VirtualBox'
+2015-07-30 12:19:00.243 [info] <0.99.0> Starting Boss in development mode....
+
+2015-07-30 12:19:00.267 [info] <0.99.0>@boss_db:start:72 Start Database Adapter boss_db_adapter_mongodb options [{adapter,mongodb},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_host,"localhost"},{db_port,27017}]
+2015-07-30 12:19:00.290 [info] <0.7.0> Application mongodb started on node 'dashboard@rohit-VirtualBox'
+2015-07-30 12:19:00.492 [info] <0.99.0> Starting master services on 'dashboard@rohit-VirtualBox'
+
+2015-07-30 12:19:00.539 [info] <0.7.0> Application tinymq started on node 'dashboard@rohit-VirtualBox'
+2015-07-30 12:19:00.608 [info] <0.99.0> SSL:[]
+
+2015-07-30 12:19:00.613 [info] <0.99.0> Starting cowboy... on 'dashboard@rohit-VirtualBox'
+
+2015-07-30 12:19:00.624 [info] <0.7.0> Application cowlib started on node 'dashboard@rohit-VirtualBox'
+2015-07-30 12:19:00.633 [info] <0.7.0> Application ranch started on node 'dashboard@rohit-VirtualBox'
+2015-07-30 12:19:00.671 [info] <0.7.0> Application cowboy started on node 'dashboard@rohit-VirtualBox'
+2015-07-30 12:19:00.671 [info] <0.99.0> Starting http listener... on 0.0.0.0:8001 
+
+2015-07-30 12:19:00.817 [info] <0.99.0>@boss_load:load_all_modules:57 Loading application dashboard
+2015-07-30 12:19:00.878 [info] <0.99.0>@boss_controller_compiler:compile:59 Compile controller /home/rohit/GovStrive/dashboard/src/controller/dashboard_login_controller.erl
+2015-07-30 12:19:00.885 [notice] <0.99.0>@boss_compiler:compile:47 Compile file "/home/rohit/GovStrive/dashboard/src/controller/dashboard_login_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/home/rohit/GovStrive/dashboard/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2015-07-30 12:19:00.961 [info] <0.99.0>@boss_controller_compiler:compile:59 Compile controller /home/rohit/GovStrive/dashboard/src/controller/dashboard_register_controller.erl
+2015-07-30 12:19:00.961 [notice] <0.99.0>@boss_compiler:compile:47 Compile file "/home/rohit/GovStrive/dashboard/src/controller/dashboard_register_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/home/rohit/GovStrive/dashboard/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2015-07-30 12:19:01.011 [info] <0.99.0>@boss_controller_compiler:compile:59 Compile controller /home/rohit/GovStrive/dashboard/src/controller/dashboard_dataenvision_controller.erl
+2015-07-30 12:19:01.011 [notice] <0.99.0>@boss_compiler:compile:47 Compile file "/home/rohit/GovStrive/dashboard/src/controller/dashboard_dataenvision_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/home/rohit/GovStrive/dashboard/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2015-07-30 12:19:01.065 [info] <0.99.0>@boss_load:compile_view_dir_erlydtl:311 Compile Modules "src/view/lib/tag_html"  dashboard_view_lib_tags
+2015-07-30 12:19:01.235 [notice] <0.99.0>@boss_compiler:compile:47 Compile file "/home/rohit/GovStrive/dashboard/priv/init/dashboard_01_news.erl" with options [{include_dirs,["/home/rohit/GovStrive/dashboard/include"]}] 
+2015-07-30 12:19:01.238 [notice] <0.99.0>@boss_compiler:compile:47 Compile file "/home/rohit/GovStrive/dashboard/priv/init/dashboard_10_bcrypt.erl" with options [{include_dirs,["/home/rohit/GovStrive/dashboard/include"]}] 
+2015-07-30 12:19:01.415 [warning] <0.6.0> lager_error_logger_h dropped 34 messages in the last second that exceeded the limit of 50 messages/sec
+2015-07-30 12:19:01.415 [info] <0.7.0> Application bcrypt started on node 'dashboard@rohit-VirtualBox'
+2015-07-30 12:19:41.020 [notice] <0.299.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-30 12:25:53.936 [notice] <0.332.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-30 12:25:55.808 [notice] <0.335.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-30 12:27:20.234 [notice] <0.348.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-30 12:27:41.949 [notice] <0.354.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-30 13:23:18.112 [notice] <0.63.0>@lager_app:132 Deprecated lager_file_backend config detected, please consider updating it
+2015-07-30 13:23:18.535 [info] <0.7.0> Application lager started on node 'dashboard@rohit-VirtualBox'
+2015-07-30 13:23:18.688 [info] <0.7.0> Application crypto started on node 'dashboard@rohit-VirtualBox'
+2015-07-30 13:23:18.792 [info] <0.7.0> Application mimetypes started on node 'dashboard@rohit-VirtualBox'
+2015-07-30 13:23:19.128 [info] <0.99.0> Starting Boss in development mode....
+
+2015-07-30 13:23:19.213 [info] <0.99.0>@boss_db:start:72 Start Database Adapter boss_db_adapter_mongodb options [{adapter,mongodb},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_host,"localhost"},{db_port,27017}]
+2015-07-30 13:23:19.227 [info] <0.7.0> Application mongodb started on node 'dashboard@rohit-VirtualBox'
+2015-07-30 13:23:19.503 [info] <0.99.0> Starting master services on 'dashboard@rohit-VirtualBox'
+
+2015-07-30 13:23:19.726 [info] <0.7.0> Application tinymq started on node 'dashboard@rohit-VirtualBox'
+2015-07-30 13:23:20.084 [info] <0.99.0> SSL:[]
+
+2015-07-30 13:23:20.096 [info] <0.99.0> Starting cowboy... on 'dashboard@rohit-VirtualBox'
+
+2015-07-30 13:23:20.151 [info] <0.7.0> Application cowlib started on node 'dashboard@rohit-VirtualBox'
+2015-07-30 13:23:20.163 [info] <0.7.0> Application ranch started on node 'dashboard@rohit-VirtualBox'
+2015-07-30 13:23:20.312 [info] <0.7.0> Application cowboy started on node 'dashboard@rohit-VirtualBox'
+2015-07-30 13:23:20.312 [info] <0.99.0> Starting http listener... on 0.0.0.0:8001 
+
+2015-07-30 13:23:20.802 [info] <0.99.0>@boss_load:load_all_modules:57 Loading application dashboard
+2015-07-30 13:23:20.973 [info] <0.99.0>@boss_controller_compiler:compile:59 Compile controller /home/rohit/GovStrive/dashboard/src/controller/dashboard_login_controller.erl
+2015-07-30 13:23:20.990 [notice] <0.99.0>@boss_compiler:compile:47 Compile file "/home/rohit/GovStrive/dashboard/src/controller/dashboard_login_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/home/rohit/GovStrive/dashboard/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2015-07-30 13:23:21.172 [info] <0.99.0>@boss_controller_compiler:compile:59 Compile controller /home/rohit/GovStrive/dashboard/src/controller/dashboard_register_controller.erl
+2015-07-30 13:23:21.172 [notice] <0.99.0>@boss_compiler:compile:47 Compile file "/home/rohit/GovStrive/dashboard/src/controller/dashboard_register_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/home/rohit/GovStrive/dashboard/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2015-07-30 13:23:21.235 [info] <0.99.0>@boss_controller_compiler:compile:59 Compile controller /home/rohit/GovStrive/dashboard/src/controller/dashboard_dataenvision_controller.erl
+2015-07-30 13:23:21.235 [notice] <0.99.0>@boss_compiler:compile:47 Compile file "/home/rohit/GovStrive/dashboard/src/controller/dashboard_dataenvision_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/home/rohit/GovStrive/dashboard/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2015-07-30 13:23:21.415 [info] <0.99.0>@boss_load:compile_view_dir_erlydtl:311 Compile Modules "src/view/lib/tag_html"  dashboard_view_lib_tags
+2015-07-30 13:23:21.955 [notice] <0.99.0>@boss_compiler:compile:47 Compile file "/home/rohit/GovStrive/dashboard/priv/init/dashboard_01_news.erl" with options [{include_dirs,["/home/rohit/GovStrive/dashboard/include"]}] 
+2015-07-30 13:23:21.977 [notice] <0.99.0>@boss_compiler:compile:47 Compile file "/home/rohit/GovStrive/dashboard/priv/init/dashboard_10_bcrypt.erl" with options [{include_dirs,["/home/rohit/GovStrive/dashboard/include"]}] 
+2015-07-30 13:23:22.334 [warning] <0.6.0> lager_error_logger_h dropped 35 messages in the last second that exceeded the limit of 50 messages/sec
+2015-07-30 13:23:22.334 [info] <0.7.0> Application bcrypt started on node 'dashboard@rohit-VirtualBox'
+2015-07-30 14:03:27.554 [notice] <0.302.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-30 14:03:53.929 [notice] <0.306.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-30 14:34:47.186 [notice] <0.63.0>@lager_app:132 Deprecated lager_file_backend config detected, please consider updating it
+2015-07-30 14:34:47.442 [info] <0.7.0> Application lager started on node 'dashboard@rohit-VirtualBox'
+2015-07-30 14:34:47.503 [info] <0.7.0> Application crypto started on node 'dashboard@rohit-VirtualBox'
+2015-07-30 14:34:47.633 [info] <0.7.0> Application mimetypes started on node 'dashboard@rohit-VirtualBox'
+2015-07-30 14:34:47.697 [info] <0.99.0> Starting Boss in development mode....
+
+2015-07-30 14:34:47.768 [info] <0.99.0>@boss_db:start:72 Start Database Adapter boss_db_adapter_mongodb options [{adapter,mongodb},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_host,"localhost"},{db_port,27017}]
+2015-07-30 14:34:47.806 [info] <0.7.0> Application mongodb started on node 'dashboard@rohit-VirtualBox'
+2015-07-30 14:34:47.993 [info] <0.99.0> Starting master services on 'dashboard@rohit-VirtualBox'
+
+2015-07-30 14:34:48.057 [info] <0.7.0> Application tinymq started on node 'dashboard@rohit-VirtualBox'
+2015-07-30 14:34:48.183 [info] <0.99.0> SSL:[]
+
+2015-07-30 14:34:48.194 [info] <0.99.0> Starting cowboy... on 'dashboard@rohit-VirtualBox'
+
+2015-07-30 14:34:48.202 [info] <0.7.0> Application cowlib started on node 'dashboard@rohit-VirtualBox'
+2015-07-30 14:34:48.246 [info] <0.7.0> Application ranch started on node 'dashboard@rohit-VirtualBox'
+2015-07-30 14:34:48.289 [info] <0.7.0> Application cowboy started on node 'dashboard@rohit-VirtualBox'
+2015-07-30 14:34:48.290 [info] <0.99.0> Starting http listener... on 0.0.0.0:8001 
+
+2015-07-30 14:34:48.515 [info] <0.99.0>@boss_load:load_all_modules:57 Loading application dashboard
+2015-07-30 14:34:48.592 [info] <0.99.0>@boss_controller_compiler:compile:59 Compile controller /home/rohit/GovStrive/dashboard/src/controller/dashboard_login_controller.erl
+2015-07-30 14:34:48.604 [notice] <0.99.0>@boss_compiler:compile:47 Compile file "/home/rohit/GovStrive/dashboard/src/controller/dashboard_login_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/home/rohit/GovStrive/dashboard/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2015-07-30 14:34:48.718 [info] <0.99.0>@boss_controller_compiler:compile:59 Compile controller /home/rohit/GovStrive/dashboard/src/controller/dashboard_register_controller.erl
+2015-07-30 14:34:48.718 [notice] <0.99.0>@boss_compiler:compile:47 Compile file "/home/rohit/GovStrive/dashboard/src/controller/dashboard_register_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/home/rohit/GovStrive/dashboard/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2015-07-30 14:34:48.754 [info] <0.99.0>@boss_controller_compiler:compile:59 Compile controller /home/rohit/GovStrive/dashboard/src/controller/dashboard_dataenvision_controller.erl
+2015-07-30 14:34:48.754 [notice] <0.99.0>@boss_compiler:compile:47 Compile file "/home/rohit/GovStrive/dashboard/src/controller/dashboard_dataenvision_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/home/rohit/GovStrive/dashboard/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2015-07-30 14:34:48.788 [info] <0.99.0>@boss_load:compile_view_dir_erlydtl:311 Compile Modules "src/view/lib/tag_html"  dashboard_view_lib_tags
+2015-07-30 14:34:48.977 [notice] <0.99.0>@boss_compiler:compile:47 Compile file "/home/rohit/GovStrive/dashboard/priv/init/dashboard_01_news.erl" with options [{include_dirs,["/home/rohit/GovStrive/dashboard/include"]}] 
+2015-07-30 14:34:48.983 [notice] <0.99.0>@boss_compiler:compile:47 Compile file "/home/rohit/GovStrive/dashboard/priv/init/dashboard_10_bcrypt.erl" with options [{include_dirs,["/home/rohit/GovStrive/dashboard/include"]}] 
+2015-07-30 14:34:49.124 [warning] <0.6.0> lager_error_logger_h dropped 34 messages in the last second that exceeded the limit of 50 messages/sec
+2015-07-30 14:34:49.124 [info] <0.7.0> Application bcrypt started on node 'dashboard@rohit-VirtualBox'
+2015-07-30 14:38:28.927 [notice] <0.292.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
+2015-07-30 14:50:42.309 [notice] <0.301.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath dashboard
